@@ -1,0 +1,345 @@
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - Number of neighborhoods: 1
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - Neighborhood #0
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - -------Buildings----------
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - Total number of buildings: 7374
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of School Buildings needed: 1
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Residential Buildings needed: 4916
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Commercial Buildings needed: 2457
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - --------Units---------
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Apartments Needed: 375
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Schools Needed: 1
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Pubs Needed: 3
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Workplace Needed: 63
+[INFO] edu.gmu.mason.vanilla.WorldModel initPlaces - # of Restaurant Needed: 5
+[INFO] edu.gmu.mason.vanilla.utils.DateTimeUtil logTimeSpent - GUI initialization time: 146 ms.
+[INFO] edu.gmu.mason.vanilla.WorldModel addHumanAgents - Total number of agents: 250
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #0 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #1 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #2 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #3 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #4 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #5 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #6 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #7 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #8 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #9 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #10 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #11 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #12 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #13 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #14 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #15 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #16 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #17 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #18 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #19 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #20 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #21 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #22 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #23 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #24 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #25 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #26 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #27 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #28 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #29 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #30 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #31 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #32 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #33 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #34 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #35 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #36 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #37 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #38 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #39 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #40 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #41 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #42 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #43 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #44 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #45 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #46 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #47 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #48 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #49 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #50 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #51 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #52 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #53 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #54 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #55 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #56 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #57 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #58 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #59 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #60 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #61 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #62 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #63 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #64 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #65 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #66 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #67 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #68 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #69 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #70 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #71 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #72 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #73 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #74 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #75 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #76 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #77 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #78 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #79 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #80 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #81 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #82 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #83 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #84 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #85 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #86 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #87 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #88 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #89 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #90 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #91 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #92 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #93 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #94 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #95 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #96 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #97 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #98 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #99 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #100 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #101 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #102 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #103 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #104 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #105 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #106 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #107 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #108 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #109 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #110 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #111 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #112 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #113 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #114 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #115 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #116 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #117 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #118 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #119 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #120 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #121 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #122 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #123 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #124 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #125 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #126 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #127 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #128 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #129 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #130 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #131 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #132 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #133 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #134 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #135 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #136 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #137 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #138 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #139 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #140 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #141 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #142 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #143 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #144 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #145 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #146 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #147 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #148 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #149 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #150 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #151 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #152 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #153 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #154 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #155 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #156 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #157 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #158 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #159 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #160 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #161 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #162 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #163 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #164 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #165 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #166 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #167 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #168 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #169 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #170 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #171 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #172 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #173 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #174 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #175 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #176 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #177 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #178 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #179 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #180 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #181 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #182 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #183 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #184 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #185 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #186 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #187 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #188 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #189 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #190 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #191 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #192 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #193 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #194 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #195 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #196 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #197 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #198 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #199 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #200 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #201 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #202 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #203 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #204 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #205 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #206 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #207 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #208 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #209 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #210 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #211 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #212 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #213 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #214 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #215 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #216 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #217 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #218 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #219 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #220 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #221 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #222 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #223 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #224 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #225 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #226 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #227 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #228 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #229 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #230 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #231 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #232 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #233 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #234 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #235 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #236 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #237 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #238 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #239 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #240 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #241 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #242 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #243 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #244 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #245 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #246 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #247 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #248 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addAgent - Agent #249 added.
+[INFO] edu.gmu.mason.vanilla.WorldModel addHumanAgents - Human agents are added.
+[INFO] edu.gmu.mason.vanilla.utils.DateTimeUtil logTimeSpent - Agent population create/initialize time: 1367 ms.
+[INFO] edu.gmu.mason.vanilla.utils.DateTimeUtil logTimeSpent - Portrayal setup time: 1435 ms.
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #1 Mon @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #1 Mon @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #2 Tue @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #2 Tue @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #3 Wed @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #3 Wed @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #4 Thu @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #4 Thu @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #5 Fri @ 00:00
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #90 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #114 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #140 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #12 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #24 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #77 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #73 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #23 exits: Abandoned - at time:2019-07-05T00:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #84 exits: Abandoned - at time:2019-07-05T00:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #68 exits: Abandoned - at time:2019-07-05T00:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #139 exits: Abandoned - at time:2019-07-05T00:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #59 exits: Abandoned - at time:2019-07-05T00:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #126 exits: Abandoned - at time:2019-07-05T00:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #39 exits: Abandoned - at time:2019-07-05T07:00:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #122 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #158 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #116 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #138 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #98 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #153 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #117 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #129 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #4 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #104 exits: Abandoned - at time:2019-07-05T07:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #27 exits: Abandoned - at time:2019-07-05T07:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #111 exits: Abandoned - at time:2019-07-05T07:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #71 exits: Abandoned - at time:2019-07-05T07:15:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #1 exits: Abandoned - at time:2019-07-05T07:20:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #103 exits: Abandoned - at time:2019-07-05T07:20:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #145 exits: Abandoned - at time:2019-07-05T07:20:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #2 exits: Abandoned - at time:2019-07-05T07:40:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #9 exits: Abandoned - at time:2019-07-05T08:05:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #94 exits: Abandoned - at time:2019-07-05T08:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #31 exits: Abandoned - at time:2019-07-05T08:10:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #58 exits: Abandoned - at time:2019-07-05T08:15:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #154 exits: Abandoned - at time:2019-07-05T08:15:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #7 exits: Abandoned - at time:2019-07-05T08:25:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #147 exits: Abandoned - at time:2019-07-05T08:30:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #156 exits: Abandoned - at time:2019-07-05T08:45:00.000
+[INFO] edu.gmu.mason.vanilla.Person exitTheWorld - Agent #150 exits: Abandoned - at time:2019-07-05T08:45:00.000
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #5 Fri @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #6 Sat @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #6 Sat @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #7 Sun @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #7 Sun @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #8 Mon @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #8 Mon @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #9 Tue @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #9 Tue @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #10 Wed @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #10 Wed @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #11 Thu @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #11 Thu @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #12 Fri @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #12 Fri @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #13 Sat @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #13 Sat @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #14 Sun @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #14 Sun @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #15 Mon @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #15 Mon @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #16 Tue @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #16 Tue @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #17 Wed @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel eveningRoutine - Evening routine:Day #17 Wed @ 19:00
+[INFO] edu.gmu.mason.vanilla.WorldModel nightlyRoutine - Night routine:Day #18 Thu @ 00:00
+[INFO] edu.gmu.mason.vanilla.WorldModel finish - Social network graph saved.
+[INFO] edu.gmu.mason.vanilla.utils.DateTimeUtil logTimeSpent - Total simulation time: 61871 ms.
