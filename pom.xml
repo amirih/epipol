@@ -28,7 +28,7 @@
 					</descriptorRefs>
 					<archive>
 		            <manifest>
-		              <mainClass>edu.gmu.mason.vanilla.WorldModel</mainClass>
+		              <mainClass>edu.gmu.mason.vanilla.WorldModelUI</mainClass>
 		            </manifest>
 		          </archive>
 				</configuration>
