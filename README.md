@@ -44,7 +44,7 @@ First go to <href>https://overpass-turbo.eu/</href> and select a location.<br>
 Run the query `[out:json][timeout:25]; ( way["building"]({{bbox}}); ); out body; >; out skel qt;`, click export, and download as GeoJSON.<br>
 Run the query `[out:json][timeout:25]; ( way["highway"]({{bbox}}); ); out body; >; out skel qt;`, click export, and download as GeoJSON.<br>
 
-At this point, check that both tbp_maps and processed are empty. Move the files to `epipol\map_creation\tbp_maps`. Either rename the building file to a.geojson and the highway file to b.geojson, or specify their file names as arguments when calling `python make_map.py`. The outputted ESRI shapefiles should be available within the processed subdirectory. You can copy them into `epipol\target\maps\(name of location)`. The map can be chosen from within your .properties file. If this doesn't work for whatever reason, you can read [this guide](map.md) on how to manually create a map.
+At this point, check that both tbp_maps and processed are empty. Move the files to `epipol\map_creation\tbp_maps`. Either rename the building file to a.geojson and the highway file to b.geojson, or specify their file names as arguments when calling `python make_map.py`. The first argument, which is mandatory, is the path to `(QGIS install location)\apps\qgis\python\plugins`. The other two arguments are the file names if not a and b. The outputted ESRI shapefiles should be available within the processed subdirectory. You can copy them into `epipol\target\maps\(name of location)`. The map can be chosen from within your .properties file. If this doesn't work for whatever reason, you can read [this guide](map.md) on how to manually create a map.
 
 <h2>Misc.</h2>
 
