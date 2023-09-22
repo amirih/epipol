@@ -14,7 +14,6 @@ For running the pyqgis scripts for streamlined conversion of the maps, add:
 - (QGIS install location)\bin
 - (QGIS install location)\apps\qgis\bin
 - (QGIS install location)\apps\Qt5\bin
-- (QGIS install location)\apps\Python39\Scripts
 
 <h2>Run the Simulation</h2>
 
