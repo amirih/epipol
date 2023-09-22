@@ -5,12 +5,13 @@ from qgis.PyQt.QtCore import QVariant
 from qgis.analysis import QgsNativeAlgorithms
 import sys
 
-def makeBuildUnits(shapefile):
+def makeBuildUnits(plugpath,shapefile):
 	qgs = QgsApplication([], False)
-	QgsApplication.setPrefixPath('C:\\Users\\willk\\OneDrive\\Documents\\HAYBAL_extra')
-	sys.path.append('C:\\Program Files\\QGIS 3.32.2\\apps\\qgis\\python\\plugins')
+	QgsApplication.setPrefixPath(os.getcwd())
+	sys.path.append(plugpath)
 	import processing
 	from processing.core.Processing import Processing
+	
 	QgsApplication.initQgis()
 	Processing.initialize()
 	QgsApplication.processingRegistry().addProvider(QgsNativeAlgorithms())
@@ -34,5 +35,6 @@ def makeBuildUnits(shapefile):
 
 if __name__ == '__main__':
 	args=sys.argv[1:]
-	if args: makeBuildUnits(args[0])
-	else: makeBuildUnits('processed\\buildings.shp')
+	if len(args)==1: makeBuildUnits(args[0],'processed\\buildings.shp')
+	elif len(args)==2: makeBuildUnits(args[0],args[1])
+	else: makeBuildUnits('C:\\Program Files\\QGIS 3.32.2\\apps\\qgis\\python\\plugins','processed\\buildings.shp')

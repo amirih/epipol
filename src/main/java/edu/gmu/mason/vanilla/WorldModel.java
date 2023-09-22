@@ -1760,34 +1760,6 @@ public class WorldModel extends SimState {
 	
 	public void calcSick()
 	{
-		//List<AgentInteraction> agentInteractions=quantitiesOfInterest.getAgentInteractions();
-		/*for(Person curr:getAgents())
-		{
-			if(curr.getSickDays()==-params.resistanceLength){curr.setSickDays(0);}
-			if(params.haveResistance)
-			{
-				
-				if(curr.getSickDays()==1)
-				{
-					curr.newSickDay();curr.newSickDay();
-					System.out.println("ID: "+curr.getAgentId()+", Sick days: "+curr.getSickDays());
-				}
-				else if(curr.getSickDays()!=0)
-				{
-					curr.newSickDay();
-					System.out.println("ID: "+curr.getAgentId()+", Sick days: "+curr.getSickDays());
-				}
-				
-			}
-			else
-			{
-				if(curr.getSickDays()!=0)
-				{
-					curr.newSickDay();
-					System.out.println("ID: "+curr.getAgentId()+", Sick days: "+curr.getSickDays());
-				}
-			}
-		}*/
 		for(Person curr:getAgents())
 		{
 			if(curr.getExposedDays()>0)

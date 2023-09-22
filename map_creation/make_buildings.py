@@ -7,7 +7,7 @@ import time
 
 def makeBuilds(inbuild):
 	qgs = QgsApplication([], False)
-	QgsApplication.setPrefixPath('C:\\Users\\willk\\OneDrive\\Documents\\HAYBAL_extra')
+	QgsApplication.setPrefixPath(os.getcwd())
 	QgsApplication.initQgis()
 
 	layer = QgsVectorLayer(inbuild,'Buildings layer')
