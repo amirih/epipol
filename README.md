@@ -14,7 +14,6 @@ For running the pyqgis scripts for streamlined conversion of the maps, add:
 - (QGIS install location)\bin
 - (QGIS install location)\apps\qgis\bin
 - (QGIS install location)\apps\Qt5\bin
-- (QGIS install location)\apps\Python39\Scripts
 
 <h2>Run the Simulation</h2>
 
@@ -37,7 +36,7 @@ mvn org.apache.maven.plugins:maven-resources-plugin:2.6:resources org.apache.mav
 ```
 java -jar vanilla-0.1-jar-with-dependencies.jar
 ```
-All variable presets can be found within the .properties files. When only editing .properties files, recompiling isn't necessary. The default file is `parameters.properties`. To specify a different .properties file, use the `-configuration` argument when calling step 3.
+All variable presets can be found within the .properties files. When only editing .properties files, recompiling isn't necessary. The default file is `parameters.properties`. To specify a different .properties file, use the `-configuration` argument when doing step 3.
 
 <h2>Generate a New Map</h2>
 First go to <href>https://overpass-turbo.eu/</href> and select a location.<br>
@@ -45,7 +44,7 @@ First go to <href>https://overpass-turbo.eu/</href> and select a location.<br>
 Run the query `[out:json][timeout:25]; ( way["building"]({{bbox}}); ); out body; >; out skel qt;`, click export, and download as GeoJSON.<br>
 Run the query `[out:json][timeout:25]; ( way["highway"]({{bbox}}); ); out body; >; out skel qt;`, click export, and download as GeoJSON.<br>
 
-Move the files to `epipol\map_creation\tbp_maps`. Either rename the building file to a.geojson and the highway file to b.geojson, or specify their file names as arguments when calling `python make_map.py`. The outputted ESRI shapefiles should be available within the processed subdirectory. You can copy them into `epipol\target\maps\(name of location)`. The map can be chosen from within your .properties file. If this doesn't work for whatever reason, you can read [this guide](map.md) on how to manually create a map.
+At this point, check that both tbp_maps and processed are empty. Move the files to `epipol\map_creation\tbp_maps`. Either rename the building file to a.geojson and the highway file to b.geojson, or specify their file names as arguments when calling `python make_map.py`. The first argument, which is mandatory, is the path to `(QGIS install location)\apps\qgis\python\plugins`. The other two arguments are the file names if not a and b. The outputted ESRI shapefiles should be available within the processed subdirectory. You can copy them into `epipol\target\maps\(name of location)`. The map can be chosen from within your .properties file. If this doesn't work for whatever reason, you can read [this guide](map.md) on how to manually create a map.
 
 <h2>Misc.</h2>
 
