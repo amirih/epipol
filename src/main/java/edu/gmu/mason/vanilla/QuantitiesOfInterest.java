@@ -132,19 +132,11 @@ public class QuantitiesOfInterest extends AnnotatedPropertied {
 				}
 
 				if(model.getAgent(agent1)==null || model.getAgent(agent2)==null){continue;}
-				if(model.getAgent(agent1).getSickDays()>0
-					&& model.getAgent(agent2).isHealthy()
+				if((model.getAgent(agent1).getSickDays()>0||model.getAgent(agent2).getSickDays()>0)
 					&& model.random.nextDouble()<model.params.transmissionProbMeetings)
 				{
-					if(model.params.haveExposed){model.getAgent(agent2).setExposedDays(model.params.exposedLength);}
-					else{model.getAgent(agent2).setSickDays(model.random.nextInt(model.params.rangeSickDays)+model.params.guaranteedSickDays);}
-				}
-				else if(model.getAgent(agent2).getSickDays()>0
-				&& model.getAgent(agent1).isHealthy()
-				&& model.random.nextDouble()<model.params.transmissionProbMeetings)
-				{
-					if(model.params.haveExposed){model.getAgent(agent1).setExposedDays(model.params.exposedLength);}
-					else{model.getAgent(agent1).setSickDays(model.random.nextInt(model.params.rangeSickDays)+model.params.guaranteedSickDays);}
+					model.getAgent(agent1).makeSick();
+					model.getAgent(agent2).makeSick();
 				}
 
 				interaction.setInteractionEndStep(step);

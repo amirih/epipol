@@ -131,6 +131,8 @@ public class Person implements Steppable, java.io.Serializable {
 	private int exposedDays=0;
 	private int resistDays=0;
 
+	//Object sickGen;
+
 
 	/**
 	 * Constructor to call when creating an agent that is single. Use
@@ -179,6 +181,8 @@ public class Person implements Steppable, java.io.Serializable {
 		else{this.sickDays=0;}
 		if(model.random.nextDouble()<model.params.symptomProb){this.symptoms=false;}
 		else{this.symptoms=true;}
+		//this.sickGen=selectDist();
+		
 	}
 
 	/**
@@ -848,6 +852,37 @@ public class Person implements Steppable, java.io.Serializable {
 
 	public boolean isHealthy(){
 		return this.exposedDays+this.sickDays+this.resistDays==0;
+	}
+
+	/*public Object selectDist()
+	{
+		MersenneTwisterWrapper rng=new MersenneTwisterWrapper(model.random);
+	
+		if(model.params.sickDist=="normal")
+		{
+			return new NormalDistribution(rng,
+				model.params.sickMean,
+				model.params.sickVar);
+		}
+		else if(model.params.sickDist=="gamma")
+		{
+			return new GammaDistribution(rng,
+				model.params.sickMean)
+		}
+		else
+		{
+			return new UniformIntegerDistribution(rng,
+				model.params.sickMean-model.params.sickVar,
+				model.params.sickMean+model.params.sickVar);
+		}
+	}*/
+
+	public void makeSick()
+	{
+		if(!this.isHealthy()){return;}
+
+		if(model.params.haveExposed){this.setExposedDays(model.params.exposedLength);}
+		else{this.setSickDays(model.params.guaranteedSickDays+model.random.nextInt(model.params.rangeSickDays));}
 	}
 	
 	public void recordANewJournal(PersonMode targetMode, BuildingUnit targetUnit, VisitReason visitReason) {

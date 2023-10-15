@@ -1802,12 +1802,8 @@ public class WorldModel extends SimState {
 				for(Job y:x.getJobs())
 				{
 					if(y.getWorker()!=null
-						&&y.getWorker().isHealthy()
 						&&random.nextDouble()<params.transmissionProbWork)
-					{
-						if(params.haveExposed){y.getWorker().setExposedDays(params.exposedLength);}
-						else{y.getWorker().setSickDays(random.nextInt(params.rangeSickDays)+params.guaranteedSickDays);}
-					}
+					{y.getWorker().makeSick();}
 				}
 			}
 		}
@@ -1828,11 +1824,7 @@ public class WorldModel extends SimState {
 			{
 				for(Person y:x.getHousehold().getMembers())
 				{
-					if(y.isHealthy()&&random.nextDouble()<params.transmissionProbHome)
-					{
-						if(params.haveExposed){y.setExposedDays(params.exposedLength);}
-						else{y.setSickDays(random.nextInt(params.rangeSickDays)+params.guaranteedSickDays);}
-					}
+					if(random.nextDouble()<params.transmissionProbHome){y.makeSick();}
 				}
 			}
 		}

@@ -319,6 +319,11 @@ public class WorldParameters extends AnnotatedPropertied {
 	public int exposedLength;
 	@EditableProperty(group = "Init", description = "Chance of being asymptomatic", lower = "0", upper = "1", readOnly = false)
 	public double symptomProb;
+	/*@Skip
+	@EditableProperty(group = "Init", description = "Infection length distribution", lower = "", upper = "", readOnly = true)
+	public String initialManipulationFilePath = params.sickDist;
+	@EditableProperty(group = "Disease", description = "Infection length distribution", lower = "", upper = "", readOnly = true)
+	public String sickDist;*/
 	 
 	// social network visualization
 	@Skip
