@@ -15,6 +15,8 @@ For running the pyqgis scripts for streamlined conversion of the maps, add:
 - (QGIS install location)\apps\qgis\bin
 - (QGIS install location)\apps\Qt5\bin
 
+Adding a PYTHONPATH and PYTHONHOME environment variable may also be necessary to run the pyqgis scripts.
+
 <h2>Run the Simulation</h2>
 
 To compile the simulation but not start it, run compile.bat.<br>
