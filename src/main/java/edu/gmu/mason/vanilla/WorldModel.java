@@ -594,7 +594,7 @@ public class WorldModel extends SimState {
 		String workPath = ReservedLogChannels.fullDirectory(ReservedLogChannels.DEFAULT_DIRECTORY + workGraphSinkPath);
 		
 		URL url = WorldModel.class
-				.getResource("/stylesheet/NodeColoringBasedOnInterest.css");
+				.getResource("/stylesheet/sick.css");
 		String css = "url(" + url.toString() + ")";
 		// Friend Family Graph
 		visualFriendFamilyGraph = new SingleGraph(
@@ -629,9 +629,9 @@ public class WorldModel extends SimState {
 	private void reloadVisualGraph() {
 		String friendFamilyPath = ReservedLogChannels.fullDirectory(ReservedLogChannels.DEFAULT_DIRECTORY + friendFamilyGraphSinkPath);
 		String workPath = ReservedLogChannels.fullDirectory(ReservedLogChannels.DEFAULT_DIRECTORY + workGraphSinkPath);
-		
+		System.out.println("reloading graph");
 		URL url = WorldModel.class
-				.getResource("/stylesheet/NodeColoringBasedOnInterest.css");
+				.getResource("/stylesheet/sick.css");
 		String css = "url(" + url.toString() + ")";
 		if (visualFriendFamilyGraph == null) {
 			// Friend Family Graph
@@ -654,8 +654,6 @@ public class WorldModel extends SimState {
 		for (Object obj : nodes) {
 			String id = obj.toString();
 			visualFriendFamilyGraph.addNode(id);
-			visualFriendFamilyGraph.getNode(id).addAttribute("ui.class",
-					agents.get(Long.parseLong(id)).getInterest().toString());
 		}
 		Edge[][] edges = friendFamilyNetwork.getAdjacencyMatrix();
 		for (int i = 0; i < edges.length; i++) {
@@ -689,8 +687,9 @@ public class WorldModel extends SimState {
 		for (Object obj : nodes) {
 			String id = obj.toString();
 			visualWorkGraph.addNode(id);
-			visualWorkGraph.getNode(id).addAttribute("ui.class",
-					agents.get(Long.parseLong(id)).getInterest().toString());
+			//visualWorkGraph.getNode(id).addAttribute("ui.class",
+			//		agents.get(Long.parseLong(id)).getInterest().toString());
+			if(!agents.get(Long.parseLong(id)).isHealthy()){visualWorkGraph.getNode(id).addAttribute("ui.class","A");}
 		}
 		edges = workNetwork.getAdjacencyMatrix();
 		for (int i = 0; i < edges.length; i++) {
@@ -939,8 +938,11 @@ public class WorldModel extends SimState {
 		if (visualWorkGraph.getNode(String.valueOf(agentId)) == null)
 			visualWorkGraph.addNode(String.valueOf(agent.getAgentId()));
 
-		visualFriendFamilyGraph.getNode(String.valueOf(agent.getAgentId()))
-				.addAttribute("ui.class", agent.getInterest().toString());
+		if(!agent.isHealthy())
+		{
+			visualFriendFamilyGraph.getNode(String.valueOf(agent.getAgentId()))
+				.addAttribute("ui.class", "sick");
+		}
 
 		// place the agent in the neighborhood
 		agent.placeInNeighborhood();
@@ -1766,14 +1768,16 @@ public class WorldModel extends SimState {
 			{
 				curr.newExposedDay();
 				if(curr.getExposedDays()==0){
+					if(params.isFriendFamilyGraphVisible){visualFriendFamilyGraph.getNode(Long.toString(agentId)).addAttribute("ui.class","sick");}
 					curr.setSickDays(random.nextInt(params.rangeSickDays)+params.guaranteedSickDays);
 				}
 			}
 			else if(curr.getSickDays()>0)
 			{
 				curr.newSickDay();
-				if(params.haveResistance&&curr.getSickDays()==0){
-					curr.setResistDays(params.resistanceLength);
+				if(curr.getSickDays()==0){
+					if(params.isFriendFamilyGraphVisible){visualFriendFamilyGraph.getNode(Long.toString(curr.getAgentId())).removeAttribute("ui.class");}
+					if(params.haveResistance){curr.setResistDays(params.resistanceLength);}
 				}
 			}
 			else if(curr.getResistDays()>0)

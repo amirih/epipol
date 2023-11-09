@@ -882,7 +882,11 @@ public class Person implements Steppable, java.io.Serializable {
 		if(!this.isHealthy()){return;}
 
 		if(model.params.haveExposed){this.setExposedDays(model.params.exposedLength);}
-		else{this.setSickDays(model.params.guaranteedSickDays+model.random.nextInt(model.params.rangeSickDays));}
+		else
+		{
+			this.setSickDays(model.params.guaranteedSickDays+model.random.nextInt(model.params.rangeSickDays));
+			if(model.params.isFriendFamilyGraphVisible){model.getVisualFriendFamilyGraph().getNode(Long.toString(agentId)).addAttribute("ui.class","sick");}
+		}
 	}
 	
 	public void recordANewJournal(PersonMode targetMode, BuildingUnit targetUnit, VisitReason visitReason) {
