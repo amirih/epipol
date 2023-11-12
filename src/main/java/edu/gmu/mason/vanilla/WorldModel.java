@@ -1768,7 +1768,7 @@ public class WorldModel extends SimState {
 			{
 				curr.newExposedDay();
 				if(curr.getExposedDays()==0){
-					if(params.isFriendFamilyGraphVisible){visualFriendFamilyGraph.getNode(Long.toString(agentId)).addAttribute("ui.class","sick");}
+					if(params.isFriendFamilyGraphVisible){visualFriendFamilyGraph.getNode(Long.toString(curr.getAgentId())).addAttribute("ui.class","sick");}
 					curr.setSickDays(random.nextInt(params.rangeSickDays)+params.guaranteedSickDays);
 				}
 			}
